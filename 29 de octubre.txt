@@ -1,0 +1,6 @@
+•Operaciones vectorizadas y funciones universales
+•Broadcasting operar entre formas distintas
+•Filtrar datos con máscara booleanas
+•Estadística descriptiva y el parámetro axis
+•Reorganizar y combinar arreglos
+•Valores faltantes
