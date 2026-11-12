@@ -1,0 +1,27 @@
+Dataframe y series:la tabla y sus columnas
+Cargar y explorar :el ritual de las cinco líneas
+Seleccionar columnas y filas
+Filtrar filas con condiciones
+Limpieza: datos faltantes y duplicados
+Crear columnas nuevas
+Groupby : dividir aplicar y cumbinar
+De la pregunta al código
+Lo que debes llevar de pandas
+
+
+CLASE-29-OCTUBRE
+•Operaciones vectorizadas y funciones universales
+•Broadcasting operar entre formas distintas
+•Filtrar datos con máscara booleanas
+•Estadística descriptiva y el parámetro axis
+•Reorganizar y combinar arreglos
+•Valores faltantes
+
+
+
+CLASE-27-OCTUBRE
+•Funciones
+• Sintaxis de funciones
+• Argumentos/parámetros
+• Return
+• Ejercicios con funciones
