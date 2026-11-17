@@ -25,3 +25,23 @@ CLASE-27-OCTUBRE
 • Argumentos/parámetros
 • Return
 • Ejercicios con funciones
+
+CLASE-29-OCTUBRE
+operaciones vectoriales y funciones universales
+broadcasting operar entre formas distintas
+filtrar datos con mascaras voleanas y estadísticas descriptiva del árametro axis
+
+CLASE-3-NOVIEMBRE
+NO ME ACUERDO
+
+CLASE-5-NOVIEMBRE
+NO ME ACUERDO
+
+CLASE-10-NOVIEMBRE
+NO ME ACUERDO
+
+CLASE-12-NOVIEMBRE
+NO ME ACUERDO
+
+CLASE-17-NOVIEMBRE
+NO ME ACUERDO
