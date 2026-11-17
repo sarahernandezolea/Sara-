@@ -1,0 +1,29 @@
+Biomedical Analysis & Risks Dataset (Breast Cancer Wisconsin).
+
+Es una base de datos de análisis biomédico orientada a la evaluación de riesgos clínicos y a la clasificación del cáncer de mama mediante aprendizaje automático (Machine Learning). Contiene registros basados en mediciones numéricas computadas a partir de imágenes digitalizadas de muestras de tejido mamario.
+
+La base está diseñada principalmente para investigación médica, análisis predictivo y el desarrollo de modelos de clasificación (como Random Forest, con el cual se han evaluado precisiones de rendimiento superiores al 82%). Los datos permiten practicar ciencia de datos aplicada a la salud, evaluación de factores de riesgo y clasificación de tumores.
+
+Fuente / URL del recurso:
+Kaggle — Biomedical Analysis Risks RF Accuracy (basado en Breast Cancer Wisconsin):
+[https://www.kaggle.com/code/titassaha/biomedical-analysis-risks-rf-accuracy-82-56/notebook](https://www.kaggle.com/code/titassaha/biomedical-analysis-risks-rf-accuracy-82-56/notebook)
+
+La base de datos cuenta con 569 filas (muestras) y 32 columnas (incluyendo identificadores y etiquetas de diagnóstico).
+
+Formato de los datos:
+Los datos provienen del dataset estructurado en formato tabular (habitualmente CSV) que describe las características morfométricas de los núcleos celulares.
+
+Explicación de las columnas principales
+
+* **id**: Identificador único de la muestra o paciente.
+* **diagnosis**: Etiqueta objetivo que indica si el tumor es maligno (**M**) o benigno (**B**).
+* **radius_mean / radius_worst**: Media y valores extremos del radio medido desde el centro del núcleo hasta el perímetro.
+* **texture_mean / texture_worst**: Desviación estándar de los valores de escala de grises en la textura de la imagen celular.
+* **perimeter_mean / perimeter_worst**: Longitud del perímetro del núcleo celular.
+* **area_mean / area_worst**: Área calculada de la célula.
+* **smoothness_mean / smoothness_worst**: Variación local en las longitudes de los radios celulares.
+* **compactness_mean / compactness_worst**: Medida de compacidad calculada como $\text{perímetro}^2 / \text{área} - 1.0$.
+* **concavity_mean / concavity_worst**: Severidad de las porciones cóncavas del contorno del núcleo.
+* **concave points_mean / concave points_worst**: Número de porciones cóncavas detectadas en el contorno.
+* **symmetry_mean / symmetry_worst**: Grado de simetría estructural de la célula.
+* **fractal dimension_mean / fractal dimension_worst**: Aproximación de la dimensión fractal de la línea de costa celular.
