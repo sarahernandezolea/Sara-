@@ -1,0 +1,32 @@
+Breast Cancer Wisconsin (Diagnostic) Dataset.
+
+Es una base de datos médica centrada en el diagnóstico del cáncer de mama. Contiene características numéricas y morfométricas computadas a partir de imágenes digitalizadas de una biopsia por aspiración con aguja fina (BAC / FNA) de una masa mamaria. Los registros describen detalladamente las características cuantitativas de los núcleos celulares presentes en la muestra.
+
+La base está diseñada principalmente para tareas de clasificación binaria, investigación médica y aprendizaje automático (machine learning). Los datos provienen de casos clínicos reales recolectados en el Hospital de la Universidad de Wisconsin y son ampliamente utilizados como estándar educativo para entrenar modelos predictivos y realizar análisis estadísticos o de reducción de dimensionalidad.
+
+Fuente / URL de descarga:
+Kaggle — Breast Cancer Wisconsin (Diagnostic) Data Set:
+[https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+
+La base de datos cuenta con 569 filas (muestras) y 32 columnas (incluyendo ID y etiqueta de diagnóstico).
+
+Formato del archivo:
+El archivo principal se encuentra habitualmente en formato CSV (por ejemplo, `data.csv`).
+
+Explicación de las columnas principales
+
+* **id**: Identificador único para cada muestra o paciente.
+* **diagnosis**: Etiqueta objetivo (target) que indica el diagnóstico del tumor; clasificado como **M** (Malignant / Maligno, indicando tejido canceroso) o **B** (Benign / Benigno, indicando tejido no canceroso).
+
+Para cada núcleo celular, se calculan 10 características básicas de forma matemática:
+
+1. **radius**: Media de las distancias desde el centro a los puntos del perímetro.
+2. **texture**: Desviación estándar de los valores de escala de grises.
+3. **perimeter**: Perímetro del núcleo celular.
+4. **area**: Áres del núcleo celular.
+5. **smoothness**: Variación local en las longitudes de los radios.
+6. **compactness**: Medida derivada del perímetro al cuadrado dividido por el área menos uno ($\text{perímetro}^2 / \text{área} - 1.0$).
+7. **concavity**: Severidad de las porciones cóncavas del contorno.
+8. **concave points**: Número de porciones cóncavas del contorno.
+9. **symmetry**: Simetría celular.
+10. **fractal dimension**: Dimensión fractal o aproximación de la línea de costa menos uno.
