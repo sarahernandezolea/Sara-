@@ -1,0 +1,9 @@
+Dataframe y series:la tabla y sus columnas
+Cargar y explorar :el ritual de las cinco líneas
+Seleccionar columnas y filas
+Filtrar filas con condiciones
+Limpieza: datos faltantes y duplicados
+Crear columnas nuevas
+Groupby : dividir aplicar y cumbinar
+De la pregunta al código
+Lo que debes llevar de pandas
